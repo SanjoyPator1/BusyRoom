@@ -1,0 +1,802 @@
+@font-face {font-family: "72"; src: url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.eot"); /* IE9*/ src: url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.woff2") format("woff2"), /* chrome firefox */ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.woff") format("woff"), /* chrome firefox */ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.svg#72") format("svg"); /* iOS 4.1- */ } 
+
+
+.css-177gid-MuiTableCell-root{
+    text-align: center;
+}
+.css-177gid-MuiTableCell-root{
+    color:brown;
+}
+
+.outerSearch{
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.header{
+    font-family: 72;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align : left
+    
+}
+
+.synchedStatus {
+    align-items: left;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.body{
+    font-family: 72;
+    font-style: normal;
+    font-weight: bold;
+    
+}   
+.css-apqrd9-MuiTableBody-root {
+    font-family: 72;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    flex-direction:row
+}  
+
+
+
+.page{
+    position: flex;
+    justify-content: left
+}
+
+.status{
+    
+    
+    height: 20px;
+    left: 0px;
+    top: calc(50% - 20px/2);
+    font-family: 62;
+}
+
+.buttonAccept{
+    position: static;
+
+height: 20px;
+left: 0px;
+top: calc(50% - 20px/2);
+color:black;
+}
+
+.buttonAccept:hover{
+    color: rgb(7, 209, 138);
+}
+
+
+.buttonDecline{
+    position: static;
+
+height: 20px;
+left: 0px;
+top: calc(50% - 20px/2);
+color:black
+}
+
+.buttonDecline:hover{
+    color: red;
+}
+
+.outer-circle {
+    background: #63D9B633;
+    ;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    position: relative;
+    /* 
+     Child elements with absolute positioning will be 
+     positioned relative to this div 
+    */
+  }
+.inner-circle {
+    position: absolute;
+    background: #63D9B6;
+    border-radius: 50%;
+    height: 3px;
+    width: 3px;
+    /*
+     Put top edge and left edge in the center
+    */
+    top: 50%;
+    left: 50%;
+    margin: -150px 0px 0px -150px;
+    /* 
+     Offset the position correctly with
+     minus half of the width and minus half of the height 
+    */
+  }
+
+
+
+/*searcbar*/
+.group-7-6 {
+  height: 58px;
+  width: 1300px;
+}
+.searchbarstuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+.zoom-button {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4px 16px;
+  gap: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ced5dc;
+  box-shadow: 0px 0px 0px 0.1px;
+
+  width: 320px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+}
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: right;
+  margin: 0px 12px;
+  order: 0;
+  flex-grow: 0;
+}
+.text-1 {
+  position: static;
+  width: 13px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 48px;
+  /* identical to box height, or 345% */
+
+
+  /* Grayscale - 05 Header/Containers */
+
+  color: #ACB2B8;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 17.5385px;
+}
+.text-2 {
+  position: static;
+  width: 174px;
+  height: 22px;
+  
+  top: 13.5px;
+
+  /* Body Copy - S */
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+  border: 0;
+
+  /* Grayscale - 06 Border patrol */
+
+  color: #89919A;
+
+
+  /* Inside Auto Layout */
+
+  
+  margin: 0px -1px;
+}
+.filters {
+  
+}
+.filterOuter{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 16px;
+
+  position: static;
+  width: 119px;
+  height: 40px;
+  left: 332px;
+  top: 0px;
+
+  /* Information */
+
+  background: #3863FF;
+  /* Grayscale -04 List/Table Borders */
+
+  border: 1px solid #CED5DC;
+  box-sizing: border-box;
+  /* Fiori shadow - Level 0 */
+
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+
+.text-3 {
+  position: static;
+  width: 13px;
+  height: 15px;
+  
+  
+  
+  top: 12.5px;
+  
+
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Grayscale 01 - Header/Card/Container Background */
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  margin: 0px 0px;
+}
+.text-4 {
+  /*text-align: left;
+  vertical-align: top;
+  font-size: 14px;
+  font-family: 72;
+  line-height: auto;
+  color: #ffffff;*/
+
+  position: static;
+  left: 31.09%;
+  right: 36.97%;
+  top: 30%;
+  bottom: 30%;
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+
+  /* Grayscale 01 - Header/Card/Container Background */
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+
+.group-7-4 {
+  height: 20px;
+  width: 20px;
+}
+.ellipse-9-5 {
+  height: 20px;
+  width: 20px;
+}
+.text-5 {
+  
+ 
+  position: static;
+  width: 8px;
+  height: 16px;
+  left: 89px;
+  
+  
+  top: 14px;
+  padding:  7px;
+  align-items: center;
+  
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 7px;
+
+  color: #3863FF;
+
+}
+.outer{
+  
+  position: static;
+  width: 20px;
+  height: 20px;
+  left: 83px;
+  top: 10px;
+  border-radius: 50%;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 2px;
+  background: #ffffff;
+}
+.small-_trend1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  width: 59px;
+  height: 30px;
+  left: 463px;
+  top: 5px;
+
+  /* Information - background */
+
+  background: #F5FAFF;
+  border-radius: 6px;
+
+  /* Inside Auto Layout */
+  margin: 0px 12px;
+}
+
+.text-6 {
+  /*text-align: left;
+  vertical-align: bottom;
+  font-size: 10px;
+  font-family: 72;
+  line-height: 16px;
+  color: #3863ff;*/
+
+  position: static;
+  width: 28px;
+  height: 16px;
+  left: 8px;
+  padding: 2px;
+
+  /* Small XS */
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+
+  
+  
+
+  /* Information */
+
+  color: #3863FF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 5px;
+}
+.text-7 {
+  position: static;
+  width: 8px;
+  height: 8px;
+  top: auto;
+  margin-right: 2px;
+
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 20px;
+  /* identical to box height, or 275% */
+
+  
+
+  /* Information */
+
+  color: #3863FF;
+
+
+  /* Inside Auto Layout */
+
+  
+  margin: 0px 9px;
+}
+.small-_trend2 {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+
+  position: static;
+  width: 54px;
+  height: 30px;
+  left: 534px;
+  top: 5px;
+
+  /* Information - background */
+
+  background: #F5FAFF;
+  border-radius: 6px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.text-8 {
+  /*text-align: left;
+  vertical-align: bottom;
+  font-size: 10px;
+  font-family: 72;
+  line-height: 16px;
+  color: #3863ff;*/
+
+  position: static;
+  width: 23px;
+  height: 16px;
+  left: 8px;
+  top: calc(50% - 16px/2);
+
+  /* Small XS */
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: flex-end;
+
+  /* Information */
+
+  color: #3863FF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 9px;
+}
+.text-9 {
+  position: static;
+  width: 8px;
+  height: 8px;
+  top: auto;
+  margin-right: 2px;
+
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 20px;
+  /* identical to box height, or 275% */
+
+  
+
+  /* Information */
+
+  color: #3863FF;
+
+
+  /* Inside Auto Layout */
+
+  
+  margin: 0px 9px;
+}
+.frame {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 147px;
+  height: 40px;
+  left: 600px;
+  top: 0px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.text-1-0 {
+  /*text-align: left;
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: 72;
+  line-height: auto;
+  color: #89919a;*/
+
+  position: static;
+  left: 0%;
+  right: 75.51%;
+  top: 30%;
+  bottom: 30%;
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Grayscale - 06 Border patrol */
+
+  color: #89919A;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+}
+.filters1{
+  /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px 28px;
+
+position: static;
+width: 99px;
+height: 40px;
+left: 48px;
+top: 0px;
+
+/* Axelle */
+
+background: #39CBAF;
+/* Fiori shadow - Level 0 */
+
+box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04);
+border-radius: 6px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+}
+.text-1-1 {
+  position: static;
+  left: 28.28%;
+  right: 28.28%;
+  top: 30%;
+  bottom: 30%;
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+  
+}
+.rectangle-9-7 {
+  height: 1px;
+  /* width: 1300px; */
+  background-color: #edf1f4;
+  display: flex;
+  justify-content: right;
+
+}
+.button {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+  background-color: #39cbaf;
+  margin-left: auto;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+
+  position: absolute;
+  width: 169px;
+  height: 38px;
+  left: 1538px;
+  top: 35px;  */
+
+  /* Axelle */
+
+  background: #39CBAF;
+  border: #ffff;
+  border-radius: 6px;
+  margin-left: auto; 
+}
+.elements1{
+  /*display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 129px;
+  height: 22px;
+  left: 20px;
+  top: 8px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 3px 0px;
+}
+.text-1-2 {
+  /*text-align: left;
+  vertical-align: top;
+  font-size: 10px;
+  font-family: 72;
+  line-height: 22px;
+  color: #ffffff;*/
+
+  position: static;
+  width: 107px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+
+  /* Body Copy - S */
+
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+
+  /* Grayscale 01 - Header/Card/Container Background */
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+
+
+}
+.img-1-3 {
+  height: 24px;
+  width: 24px;
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.icon{
+  position: static;
+  width: 14px;
+  height: 14px;
+  left: 110px;
+  top: 0px;
+
+  /* SAP Icon */
+
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+
+  /* Grayscale 01 - Header/Card/Container Background */
+
+  color: #FFFFFF;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 4px;
+}

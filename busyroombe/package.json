@@ -1,0 +1,23 @@
+{
+  "name": "busyroombe",
+  "version": "1.0.0",
+  "description": "busy room backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "author": "sp",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14",
+    "unique-username-generator": "^1.0.1",
+    "ws": "^8.3.0"
+  }
+}

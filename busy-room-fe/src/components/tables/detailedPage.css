@@ -1,0 +1,249 @@
+.card{
+    margin-top: 5px;
+    align-content: center;
+    padding: 20px;
+}
+
+
+.flex-container{
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.left{
+    margin-left: 20px;
+    left: 92px;
+    top: 93px;
+}
+
+
+.spdp{
+    display:flex;
+}
+
+.sp{
+    color: #39CBAF;
+
+    position: static;
+    height: 16px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    font-family: 72;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #39CBAF;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dp{
+    position: static;
+    height: 16px;
+    left: 59.43%;
+    right: 0%;
+    top: calc(50% - 16px/2);
+
+    font-family: 72;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+
+    color: #CED5DC;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.cnd{
+    position: static;
+
+
+left: 0px;
+top: calc(50% - 22px/2);
+
+/* Header 5 - 18 */
+
+font-family: 72;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 120% */
+
+
+/* Grayscale - 08 (Text & Title) */
+
+color: #333333;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 2px 0px;
+}
+
+.pnd{
+    position: static;
+width: 210px;
+height: 26px;
+left: 0px;
+top: 48px;
+
+/* Body Copy - 16/26 */
+
+font-family: 72;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+/* Grayscale - 08 (Text & Title) */
+
+color: #333333;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 5px 0px;
+}
+
+.date{
+    position: static;
+left: 0px;
+top: 79px;
+
+/* Small Copy (for error msgs) - 12/20 */
+
+font-family: 72;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+/* Grayscale - 05 Header/Containers */
+
+color: #ACB2B8;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 5px 0px;
+}
+
+
+.tf{
+    /* Total footprint */
+
+
+position: static;
+width: 105px;
+height: 16px;
+left: 0px;
+top: -1.13px;
+
+/* Pretitle - */
+
+font-family: 72;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 16px;
+/* identical to box height, or 160% */
+
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+/* Grayscale - 06 Border patrol */
+
+color: #89919A;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.co2kg{
+    display: flex;
+}
+
+.co2{
+    flex: 1;
+
+    left: 0px;
+    top: 18.87px;
+    
+    /* Header 5 - 18 */
+    
+    font-family: 72;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+
+    align-items: center;
+    
+    color: #333333;
+    
+    
+    /* Inside Auto Layout */
+    
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 5px;
+    }
+    
+    .kg{
+        margin-left: 0px;
+    }
+
+    .su{
+        font-family: 72;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+}
+
+
+.chart{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.comment{
+    margin-top: 10px;
+}

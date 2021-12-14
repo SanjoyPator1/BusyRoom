@@ -1,0 +1,104 @@
+//if else if condition
+
+if(column.id === 'trends'){
+    return (
+        <TableCell key={column.id} align={column.align}>
+                          <div style={{color:'green'}}>
+                          <br></br>
+                            <Pill color="green">^15%</Pill> <br></br>
+                          {column.format && typeof value === 'number'
+                            ? column.format(value)
+                            : value}
+                            </div>
+        </TableCell>
+    )
+}
+else if (column.id === 'database'){
+    return (
+        <TableCell key={column.id} align={column.align}>
+                          {column.format && typeof value === 'number'
+                            ? column.format(value)
+                            : value}
+        </TableCell>
+    )
+}
+else {
+    return (
+        <TableCell key={column.id} align={column.align}>
+                          {column.format && typeof value === 'number'
+                            ? column.format(value)
+                            : value}
+        </TableCell>
+    )
+}
+
+//normal
+
+return (
+    //check if it is trends column
+    column.id === 'trends'?
+    <TableCell key={column.id} align={column.align}>
+      <div style={{color:'green'}}>
+      <br></br>
+        <Pill color="green">^15%</Pill> <br></br>
+      {column.format && typeof value === 'number'
+        ? column.format(value)
+        : value}
+        </div>
+    </TableCell>
+    :
+    <TableCell key={column.id} align={column.align}>
+      {column.format && typeof value === 'number'
+        ? column.format(value)
+        : value}
+    </TableCell>
+    
+    
+    //check if 
+    //column.id !== 'database'
+  );
+
+
+//switch statement
+
+const col_id = column.id;
+
+switch(col_id){
+
+    case 'trends':
+        return (
+            <TableCell key={column.id} align={column.align}>
+                              <div style={{color:'green'}}>
+                              <br></br>
+                                <Pill color="green">^15%</Pill> <br></br>
+                              {column.format && typeof value === 'number'
+                                ? column.format(value)
+                                : value}
+                                </div>
+            </TableCell>
+        );
+        break;
+    case 'database':
+        return (
+        <TableCell key={column.id} align={column.align}>
+                          {column.format && typeof value === 'number'
+                            ? column.format(value)
+                            : value}
+        </TableCell>
+        );
+        break;
+    default:
+        return (
+        <TableCell key={column.id} align={column.align}>
+                          {column.format && typeof value === 'number'
+                            ? column.format(value)
+                            : value}
+        </TableCell>
+        );
+        break;
+}
+
+
+
+//onclick button 
+onClick={() => { console.log('onClick'); acceptData(row['pcfId']) }

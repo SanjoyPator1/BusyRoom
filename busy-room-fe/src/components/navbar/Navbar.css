@@ -1,0 +1,90 @@
+@font-face {font-family: "72"; src: url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.eot"); /* IE9*/ src: url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.woff2") format("woff2"), /* chrome firefox */ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.woff") format("woff"), /* chrome firefox */ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/ url("http://db.onlinewebfonts.com/t/81abcc07d9b7df6b9a389099c448e7bb.svg#72") format("svg"); /* iOS 4.1- */ } 
+
+
+
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #ffff;
+    position: sticky;
+    box-shadow:  0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navLeft{
+    display: flex;
+    margin: 40px;   
+}
+
+.logo{
+    margin: auto;
+    margin-right: 20px;
+    
+    
+    
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbarIconContainer{
+    top: 25px;
+    display: flex;
+    cursor: pointer;
+    margin-right: 13px;
+    color: #555;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbarIconBadge{
+    width: 12px;
+    height: 12px;
+    background-color: #F1A635;
+    color: white;
+    border-radius: 70%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 18px;
+}
+
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    font-size: 18px;
+}
+
+.text{
+    margin: auto;
+    font-family: 72;
+    font-style: normal;
+    font-weight: bold
+}
+
+.navRight{
+    display: flex;
+    margin: 40px;
+    
+
+}

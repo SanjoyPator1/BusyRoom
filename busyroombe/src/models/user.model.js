@@ -1,0 +1,32 @@
+import mongoose from 'mongoose'
+
+const userSchema = new mongoose.Schema(
+  {
+      userEmail: {
+          type: String,
+          required: true,
+          unique: true
+      },
+      password: {
+          type: String,
+          required: true,
+      },
+      firstName: {
+        type: String,
+        required: true,
+      },
+      lastName: {
+        type: String,
+        required: true,
+      },
+      userName : {
+          type:String,
+          required : true,
+          unique: true
+      }
+  }
+);
+
+userSchema.index({ userName: 1})
+
+export const User = mongoose.model('user', userSchema)

@@ -1,0 +1,115 @@
+
+
+.cardout{
+  /* display: flex;
+flex-direction: column;
+align-items: flex-start; */
+padding: 1px 12px 10px 15px;
+
+/* position: absolute; */
+width: 194px;
+height: 110px;
+left: 632px;
+top: 337px;
+
+background: #FFFFFF;
+/* Fiori shadow - Level 0 */
+
+/* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04); */
+border-radius: 15px;
+align-items: center;
+
+
+}
+
+.cn{
+
+  width: 107px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  
+  /* Body Copy - S */
+  
+  font-family: 72;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.pn{
+
+
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  
+  /* Header 5 - 18 */
+  
+  font-family: 72;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 120% */
+  
+  display: flex;
+  align-items: flex-end;
+  
+  color: #000000;
+
+}
+
+.ge{
+  position: static;
+left: 51.52%;
+right: 0%;
+top: 0%;
+bottom: 15.38%;
+
+/* Small Copy (for error msgs) - 12/20 */
+
+font-family: 72;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+display: flex;
+align-items: center;
+
+/* Grayscale - 07 Subtitle, prompts and stuff */
+
+color: #60666C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+.cnge{
+  display:flex;
+}
+
+
+
